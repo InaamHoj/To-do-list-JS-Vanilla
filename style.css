@@ -1,0 +1,58 @@
+header {
+    background-color: rgb(173, 67, 85);
+    width: 100%;
+    padding: 30px;
+}
+
+body {
+    margin: auto;
+}
+
+.myheader {
+    color: white;
+    font-style: bold;
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    border-color: white;
+    border-radius: 5px solid;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.thelist {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    border-bottom: 1px solid rgb(173, 67, 85);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    list-style: none;
+  }
+
+h1 {
+    color: rgb(173, 67, 85);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
